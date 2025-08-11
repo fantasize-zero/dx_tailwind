@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "check:compatibility": "npx browserslist",
+    "build:scss": "gulp build:scss",
+    "build:css": "gulp build:css",
+    "build": "run-s build:css"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "@tailwindcss/typography": "^0.5.16",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.90.0",
+    "sass-loader": "^16.0.5",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.1.0",
+    "gulp": "^5.0.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-rename": "^2.1.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-scss": "^1.4.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.1",
+    "postcss-nested": "^7.0.2",
+    "postcss-scss": "^4.0.9"
+  }
+}

@@ -1,0 +1,6 @@
+@reference "tailwindcss";
+
+#main {
+  @apply flex flex-col mx-auto p-4;
+  user-select: none;
+}

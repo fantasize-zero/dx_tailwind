@@ -1,0 +1,8 @@
+use dioxus::{html::div, prelude::*};
+
+#[component]
+pub fn Header() -> Element {
+    rsx! {
+      div { id: "header", class: "flex justify-between items-center  p-4" }
+    }
+}
