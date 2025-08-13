@@ -27,5 +27,21 @@
     "postcss-import": "^16.1.1",
     "postcss-nested": "^7.0.2",
     "postcss-scss": "^4.0.9"
+  },
+  "browserslist": {
+    "production": [
+      "Android 4.1",
+      "iOS 7.1",
+      "Chrome > 31",
+      "ff > 31",
+      "ie >= 8"
+    ],
+    "development": [
+      "Android 4.1",
+      "iOS 7.1",
+      "Chrome > 31",
+      "ff > 31",
+      "ie >= 8"
+    ]
   }
 }

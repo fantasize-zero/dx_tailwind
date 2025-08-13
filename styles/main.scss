@@ -1,6 +1,12 @@
 @reference "tailwindcss";
 
 #main {
-  @apply flex flex-col mx-auto p-4;
-  user-select: none;
+  @apply flex flex-col mx-auto  select-none;
+
+  .prefix-test {
+    backdrop-filter: blur(5px);
+    transform: translateY(10px);
+    display: flex;
+    flex-direction: column;
+  }
 }
